@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/md_keylines"
+    android:paddingTop="@dimen/md_keylines"
+    tools:context="com.eovalencia.veddit.view.details.DetailsActivityFragment"
+    tools:showIn="@layout/activity_details">
+
+        <TextView
+            android:id="@+id/place_display_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorAccent"
+            android:textSize="@dimen/article_titles"
+            android:layout_marginBottom="@dimen/md_keylines" />
+
+        <TextView
+            android:id="@+id/place_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="details_desc"
+            android:textColor="@color/colorPrimary"/>
+        
+</LinearLayout>
